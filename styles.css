@@ -14,7 +14,8 @@ body {
 }
 .img-circle {
   border-radius: 50%;
-  align-items: center;
+  position: relative;
+  /*flex-direction: flex-end;*/
 
   /*background-image: url ("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtiWqtBFd7BHg21TKz3vsVSiEMQyOFw9hf2m9yanVw8B81CMjrmg")*/
 }
