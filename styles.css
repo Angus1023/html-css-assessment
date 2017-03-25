@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 body {
+  /*display: flex;*/
+  /*align-items: space-between;*/
     margin: 0;
     padding: 0;
     width: 100%;
@@ -13,11 +15,13 @@ body {
     font-family: "Maven Pro";
 }
 .img-circle {
-  position: fixed;
-  top: 50%;
-  right: 50%;
-  margin-top: 20%;
-  margin-right: -5%;
+display: flex;
+  position: absolute;
+  /*top: 50%;*/
+  bottom: 0;
+  right: 46%;
+  /*margin-top: 20%;*/
+  /*margin-right: -5%;*/
 }
 img {
 
@@ -30,6 +34,10 @@ img {
   font-size: 30px;
 
 }
+.mini {
+  display: none;
+}
+
 #navbar {
   margin-top: 40px;
   /*flex-direction: center;*/
@@ -85,6 +93,13 @@ img {
   #navbar {
     width: 100%;
 
+  }
+  #navbar span {
+    display: none;
+
+  }
+#navbar span.mini   {
+    display: inline;
   }
 /*.visiable-phone{
 
