@@ -64,8 +64,8 @@ display: flex;
 #navbar {
   margin-top: 0;
   /*padding-top: 5%*/
-  margin-left:10%;
-  margin-right:10%;
+  padding-left:10%;
+  padding-right:10%;
   flex-direction: space-around;
   /*flex-direction: center;*/
   /*text-align: space-around;*/
@@ -132,13 +132,14 @@ display: flex;
     display: inline;
 
   }
-#navbar img.img-icon {
+#navbar span.img-icon {
   display: inline;
-  background-image: url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/3d-transparent-glass-icons-social-media-logos/097304-3d-transparent-glass-icon-social-media-logos-twitter-logo-square.png);
-  background-repeat: no-repeat;
-  background-position: right top;
 
-  /*display:inline;*/
+
+}
+#navbar img {
+  height: 40px;
+  width: 40px;
 }
 /*.visiable-phone{
 
