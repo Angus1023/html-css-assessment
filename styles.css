@@ -19,11 +19,25 @@ body {
 .img-circle {
 display: flex;
   position: absolute;
-  /*top: 50%;*/
+  /*color: white;*/
+  height: 65px;
+  width: 65px;
+  background: white;
+
   bottom: 05%;
-  right: 46%;
+  right: 48%;
+  border-radius: 50%;
+  border: solid lightgrey;
+
   /*margin-top: 20%;*/
   /*margin-right: -5%;*/
+}
+i.fa.fa-long-arrow-down {
+  font-size: 25px;
+  color: lightgrey;
+  align-items: center;
+  justify-content: center;
+  
 }
 .img-icon {
   display: none;
@@ -32,9 +46,9 @@ display: flex;
 }
 .navbar {
   width: 100%;
-  height: 100px;
-  /*padding-top:10px; */
-  text-align: center ;
+  height: 80px;
+  padding-top:35px;
+  text-align: center;
 
   font-size: 30px;
 
@@ -47,6 +61,10 @@ display: flex;
 .mini {
   display: none;
   justify-content: space-around;
+  border-radius: 50%;
+  /*border: solid white;*/
+  /*height: 60px;*/
+  /*width: px;*/
   position: relative;
   padding-left: 1.25em;
 }
@@ -86,7 +104,8 @@ display: flex;
   text-align: center;
   font-size: 152px;
   margin-bottom: 1px;
-  padding-top: 100px;
+  padding-top: 10%;
+  padding-left: 3.5%;
 
 }
 .core h2{
@@ -130,10 +149,12 @@ display: flex;
   }
 #navbar span.mini   {
     display: inline;
+    padding-top: 5%;
 
   }
 #navbar span.img-icon {
   display: inline;
+  /*padding-top: 5%;*/
 
 
 }
